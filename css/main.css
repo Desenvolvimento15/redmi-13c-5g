@@ -55,10 +55,12 @@ img {vertical-align: middle; border-style: none;}
 
 --text-white: #fff;
 --text-preto: #292929;
+--text-azul: #6299e5;
 }
 
 .txt-branco {color: var(--text-white);}
 .txt-preto{color: var(--text-preto)}
+.txt-azul{color: var(--text-azul);}
 
 .boxcolor-white{background-color: var(--background-white);}
 .boxcolor-silver{background-color: var(--background-silver);}
@@ -106,29 +108,10 @@ margin-left: -15px;
 
 /***************************** Fonts Text ******************************************/
 
-
-.subtitle{
-text-align: center;
-font-size: 3rem;
-font-weight: 700;
-font-family: 'CamphorPro', sans-serif;
-position: relative;
-overflow-wrap: break-word;
-}
-
-.subtitle-left {
-text-align: left;
-font-size: 3rem;
-font-weight: 600;
-font-family: 'CamphorPro', sans-serif;
-position: relative;
-overflow-wrap: break-word;
-}
-
 .subtitle-center {
 text-align: center;
-font-size: 3rem;
-font-weight: 200;
+font-size: 2rem;
+font-weight: 700;
 font-family: 'CamphorPro', sans-serif;
 position: relative;
 overflow-wrap: break-word;
@@ -137,15 +120,6 @@ overflow-wrap: break-word;
 .p-center {
 font-size: 1.1rem;
 text-align: center;
-font-family: 'CamphorPro', sans-serif;
-position: relative;
-line-height: 1.3;
-overflow-wrap: break-word;
-}
-
-.p-left {
-font-size: 1.1rem;
-text-align: left;
 font-family: 'CamphorPro', sans-serif;
 position: relative;
 line-height: 1.3;
@@ -183,17 +157,17 @@ padding: 5rem;
 
 .spacing{padding: 3rem;}
 .spacing-galery{padding: 12rem;}
-.button-roxo{
-    background: #cbc3fa;
-    height: 3rem;
-    width: 16rem;
-    border-radius: 1.5rem;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
+.button-roxo{
+background: #cbc3fa;
+height: 3rem;
+width: 16rem;
+border-radius: 1.5rem;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
 
 /************************************* Mobile ***************************************/
 
@@ -206,37 +180,7 @@ padding: 5rem;
 .img-desk{display: none;}
 .img-mob{display: block;}
 
-
-
 /**************************TxT******************************/
-
-.title-redmi {
-text-align: center;
-font-size: 2rem;
-font-weight: 600;
-font-display: swap;
-font-family: 'CamphorPro', sans-serif;
-position: relative;
-overflow-wrap: break-word;
-}
-
-.subtitle-xioami {
-text-align: center;
-font-size: 1.1rem;
-font-weight: 300;
-font-family: 'CamphorPro', sans-serif;
-position: relative;
-overflow-wrap: break-word;
-}
-
-.subtitle-left {
-text-align: left;
-font-size: 1.5rem;
-font-weight: 700;
-font-family: 'CamphorPro', sans-serif;
-position: relative;
-margin-bottom: 0.5rem;
-}
 
 .subtitle-center {
 text-align: center;
