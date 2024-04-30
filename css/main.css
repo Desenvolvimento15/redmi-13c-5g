@@ -199,14 +199,11 @@ width: 25rem;
 
 /***************************** Grid ******************************************/
 
-.grid-text {
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-align-content: center;
-justify-content: center;
-align-items: center;
-gap: 3rem;
+.grid {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 2rem;
+padding: 5rem;
 }
     
 /***************************** Conteudos ******************************************/
