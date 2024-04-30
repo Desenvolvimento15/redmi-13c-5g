@@ -107,6 +107,14 @@ margin-left: -15px;
 }
 
 /***************************** Fonts Text ******************************************/
+.title-button{
+    text-align: center;
+font-size: 2rem;
+font-weight: 700;
+font-family: 'CamphorPro', sans-serif;
+position: relative;
+overflow-wrap: break-word;
+}
 
 .subtitle-center {
 text-align: center;
@@ -146,11 +154,13 @@ width: 25rem;
 
 /***************************** Grid ******************************************/
 
-.grid {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-gap: 2rem;
-padding: 5rem;
+.grid-txt {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
 }
     
 /***************************** Conteudos ******************************************/
@@ -179,6 +189,17 @@ align-items: center;
 
 .img-desk{display: none;}
 .img-mob{display: block;}
+
+
+.grid-txt {
+    display: grid;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+
+
+
 
 /**************************TxT******************************/
 
