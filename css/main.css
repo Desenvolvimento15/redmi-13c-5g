@@ -31,7 +31,6 @@ line-height: 1.3;
 background-color: #3a3a3a;
 }
 
-
 /***************************** Img & Icons ******************************************/
 
 img {vertical-align: middle; border-style: none;}
@@ -107,6 +106,16 @@ margin-left: -15px;
 }
 
 /***************************** Fonts Text ******************************************/
+
+.title-02{
+text-align: center;
+font-size: 3rem;
+font-weight: 400;
+font-family: 'CamphorPro', sans-serif;
+position: relative;
+overflow-wrap: break-word;
+}
+
 .title-button{
 text-align: center;
 font-size: 2rem;
@@ -157,12 +166,11 @@ width: 25rem;
 /***************************** Grid ******************************************/
 
 .grid-txt {
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-    gap: 2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 2rem;
+gap: 2rem;
 }
     
 /***************************** Conteudos ******************************************/
@@ -192,65 +200,60 @@ align-items: center;
 .img-desk{display: none;}
 .img-mob{display: block;}
 
-
 .grid-txt {
-    display: grid;
-    margin-top: 2rem;
-    gap: 2rem;
+display: grid;
+margin-top: 2rem;
+gap: 2rem;
 }
 
-
-
-
-
-/**************************TxT******************************/
+/************************** TxT ******************************/
 
 .title-button{
-    text-align: center;
-    font-size: 1.9rem;
-    font-weight: 700;
-    font-family: 'CamphorPro', sans-serif;
-    position: relative;
-    overflow-wrap: break-word;
-    }
-    
-    .subtitle-center {
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 700;
-    font-family: 'CamphorPro', sans-serif;
-    position: relative;
-    overflow-wrap: break-word;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    }
-    
-    .p-center {
-    font-size: 1.1rem;
-    text-align: center;
-    font-family: 'CamphorPro', sans-serif;
-    position: relative;
-    line-height: 1.3;
-    overflow-wrap: break-word;
-    }
-    
-    .p-notas{
-    text-align: left;
-    font-size: 1rem;
-    padding: 5rem;
-    font-family: 'CamphorPro', sans-serif;
-    }
-    
-    .p-info {
-    margin-top: 3rem;
-    font-size: 1.5rem;
-    text-align: left;
-    font-family: 'CamphorPro', sans-serif;
-    position: relative;
-    line-height: 1.5;
-    overflow-wrap: break-word;
-    width: 25rem;
-    }
+text-align: center;
+font-size: 1.9rem;
+font-weight: 700;
+font-family: 'CamphorPro', sans-serif;
+position: relative;
+overflow-wrap: break-word;
+}
+
+.subtitle-center {
+text-align: center;
+font-size: 1.5rem;
+font-weight: 700;
+font-family: 'CamphorPro', sans-serif;
+position: relative;
+overflow-wrap: break-word;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+
+.p-center {
+font-size: 1.1rem;
+text-align: center;
+font-family: 'CamphorPro', sans-serif;
+position: relative;
+line-height: 1.3;
+overflow-wrap: break-word;
+}
+
+.p-notas{
+text-align: left;
+font-size: 1rem;
+padding: 5rem;
+font-family: 'CamphorPro', sans-serif;
+}
+
+.p-info {
+margin-top: 3rem;
+font-size: 1.5rem;
+text-align: left;
+font-family: 'CamphorPro', sans-serif;
+position: relative;
+line-height: 1.5;
+overflow-wrap: break-word;
+width: 25rem;
+}
 
 
 }
