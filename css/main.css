@@ -109,7 +109,7 @@ margin-left: -15px;
 
 .title-02{
 text-align: center;
-font-size: 3rem;
+font-size: 2.5rem;
 font-weight: 400;
 font-family: 'CamphorPro', sans-serif;
 position: relative;
@@ -152,16 +152,7 @@ padding: 5rem;
 font-family: 'CamphorPro', sans-serif;
 }
 
-.p-info {
-margin-top: 3rem;
-font-size: 1.5rem;
-text-align: left;
-font-family: 'CamphorPro', sans-serif;
-position: relative;
-line-height: 1.5;
-overflow-wrap: break-word;
-width: 25rem;
-}
+
 
 /***************************** Grid ******************************************/
 
@@ -204,6 +195,7 @@ align-items: center;
 display: grid;
 margin-top: 2rem;
 gap: 2rem;
+grid-template-columns: 1fr 1fr;
 }
 
 /************************** TxT ******************************/
@@ -240,20 +232,11 @@ overflow-wrap: break-word;
 .p-notas{
 text-align: left;
 font-size: 1rem;
-padding: 5rem;
+padding: 2rem;
 font-family: 'CamphorPro', sans-serif;
 }
 
-.p-info {
-margin-top: 3rem;
-font-size: 1.5rem;
-text-align: left;
-font-family: 'CamphorPro', sans-serif;
-position: relative;
-line-height: 1.5;
-overflow-wrap: break-word;
-width: 25rem;
-}
+
 
 
 }
